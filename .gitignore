@@ -1,1 +1,4 @@
 .idea/
+
+# macOS binary
+*.DS_Store 
