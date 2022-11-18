@@ -13,7 +13,7 @@ output: pdf_document
 
 ## Project idea
 
-- TODO: SpaceY ?
+- __SpaceY__ (name)
 
 ### Problem Description
 
@@ -55,10 +55,28 @@ Applications, Business models, etc...
 * '_Google Maps_' for space (solar system)? There doesn't seem to be a model for that.
 * VR/AR Traveling
 * Look for a distribution table of debris sizes
-* Put the data of the debries (Size, Speed, Whatever)
+* Put the data of the debris (Size, Speed, Whatever)
 
-**Initial brainstorming outcome**: a space `debris` collecting **robot**
+**Initial brainstorming outcome**: $\rightarrow$ a space `debris` collecting **robot**
 
 ### Space debris collecting robot
 
-![debris inspiration](https://www.iso.org/files/live/sites/isoorg/files/news/News_archive/2022/04/Space%20debris/spacetrash.jpg/thumbnails/900x450)
+$:=$ the concluded topic chosen
+
+## Presentation/slides
+
+* we don't need to stress about the time - we'll make a slide just to show what functions/features we could have implemented if we were given more time.
+
+### Assets
+
+|      description      |          photo           |
+|:---------------------:|:------------------------:|
+|     Space debris      | ![debris-sample][photo1] |
+|     Robot sample      | ![robot-sample][photo2]  |
+| Junk collector sample | ![robot-sample2][photo3] |
+
+<!-- links -->
+
+[photo1]: https://www.iso.org/files/live/sites/isoorg/files/news/News_archive/2022/04/Space%20debris/spacetrash.jpg/thumbnails/900x450
+[photo2]: https://ars.els-cdn.com/content/image/1-s2.0-S0094576518303953-gr6.jpg?crop=1:1,smart&width=500&height=500&upscale=true
+[photo3]: https://images.newscientist.com/wp-content/uploads/2022/06/23164810/SEI_111158480.jpg?crop=1:1,smart&width=500&height=500&upscale=true
