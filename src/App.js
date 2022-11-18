@@ -12,6 +12,6 @@ export default App;
 
 const styles = StyleSheet.create({
     title: {
-        backgroundColor: 'pink'
+        backgroundColor: 'red'
     }
 })
