@@ -2,3 +2,5 @@
 
 # macOS binary
 *.DS_Store 
+
+*.afphoto
