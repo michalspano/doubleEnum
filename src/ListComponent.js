@@ -1,12 +1,16 @@
 import {css, StyleSheet} from "aphrodite-jss";
 import React from "react";
+import Fade from "react-reveal/Fade";
 
-export function listComponent() {
+export const listComponent = (title, desc) => {
     return (
-        <div className={css(styles.listItemContainer)}>
-            <span className={css(styles.listItemText)}>Lorem lorem Lorem lorem Lorem lorem Lorem lorem Lorem lorem Lorem lorem Lorem lorem</span>
-            <div className={css(styles.listItemCircle)} />
-        </div>
+        <Fade top>
+            <div className={css(styles.listItemContainer)}>
+                <span className={css(styles.listItemTextTitle)}>{title}</span>
+                <span className={css(styles.listItemText)}>{desc}</span>
+                <div className={css(styles.listItemCircle)} />
+            </div>
+        </Fade>
     );
 }
 
@@ -20,6 +24,7 @@ const styles = StyleSheet.create({
         backgroundColor: '#C4E8E8',
         width: 380,
         justifyContent: 'center',
+        flexDirection: 'column',
         alignItems: 'center',
         margin: 20,
         zIndex: 100,
@@ -42,7 +47,12 @@ const styles = StyleSheet.create({
         zIndex: 1
     },
     listItemText: {
-        padding: 30
+        padding: 30,
+        paddingBottom: 0
+    },
+    listItemTextTitle: {
+        fontWeight: 'solid',
+        padding: 20,
     }
 
 })
