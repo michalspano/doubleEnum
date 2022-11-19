@@ -67,16 +67,31 @@ $:=$ the concluded topic chosen
 
 * we don't need to stress about the time - we'll make a slide just to show what functions/features we could have implemented if we were given more time.
 
-### Assets
+<!-- ### Assets
 
 |      description      |          photo           |
 |:---------------------:|:------------------------:|
 |     Space debris      | ![debris-sample][photo1] |
 |     Robot sample      | ![robot-sample][photo2]  |
-| Junk collector sample | ![robot-sample2][photo3] |
+| Junk collector sample | ![robot-sample2][photo3] | -->
 
 <!-- links -->
 
-[photo1]: https://www.iso.org/files/live/sites/isoorg/files/news/News_archive/2022/04/Space%20debris/spacetrash.jpg/thumbnails/900x450
+<!-- [photo1]: https://www.iso.org/files/live/sites/isoorg/files/news/News_archive/2022/04/Space%20debris/spacetrash.jpg/thumbnails/900x450
 [photo2]: https://ars.els-cdn.com/content/image/1-s2.0-S0094576518303953-gr6.jpg?crop=1:1,smart&width=500&height=500&upscale=true
-[photo3]: https://images.newscientist.com/wp-content/uploads/2022/06/23164810/SEI_111158480.jpg?crop=1:1,smart&width=500&height=500&upscale=true
+[photo3]: https://images.newscientist.com/wp-content/uploads/2022/06/23164810/SEI_111158480.jpg?crop=1:1,smart&width=500&height=500&upscale=true -->
+
+### What could have been done in the project if we had more time?
+
+If we were given more time, we would have created:
+
+* a more detailed design of the robot (including the internal parts)
+* a more detailed design of the robot's debris collectors
+* more detailed documentation of the project
+* a website with more dynamic content, such custom animations and custom layouts
+* a more detailed version of the marketing plan, that is, a more detailed description of the bracelet (as a main marketing product) and the robot itself
+* a 3D augmented reality model of the robot
+* an introduction video of the project
+* custom animation of the model in action (i.e., obtaining the debris, etc.)
+* the actual time-frame of the project (i.e., the actual time it took to complete the project)
+* a more thorough business plan
