@@ -31,9 +31,10 @@ const styles = StyleSheet.create({
         cursor: 'pointer',
         transition: 'all 0.3s',
         '&:hover': {
-            boxShadow: '0 5px 15px #CAD5E2',
+            boxShadow: '0 5px 15px #1C2541',
             transform: 'scale(0.98)',
         },
+        height: 220
 
     },
     listItemCircle: {
@@ -48,11 +49,11 @@ const styles = StyleSheet.create({
     },
     listItemText: {
         padding: 30,
-        paddingBottom: 0
     },
     listItemTextTitle: {
-        fontWeight: 'solid',
+        fontWeight: 'bold',
         padding: 20,
+        paddingBottom: 0
     }
 
 })

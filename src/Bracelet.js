@@ -13,16 +13,15 @@ export function bracelet() {
     return (
         <div className={css(styles.generalContainer)}>
             <div className={css(styles.containerTitle)}>
-                <div className={css(styles.bigTitle)} id="header" >Zero Waste Space!</div>
-                {/*<img src={flareTransparent} alt='image' className={css(styles.imageSm)} />*/}
+                <div className={css(styles.bigTitle)} id="header" >What do you get from SpaceY?</div>
+                    {/*<img src={flareTransparent} alt='image' className={css(styles.imageSm)} />*/}
             </div>
 
             <div className={css(styles.container)}>
 
                 <div className={css(styles.column)}>
                     <Slide bottom>
-                        <span className={css(styles.title)}>Title title</span>
-                        <span className={css(styles.desc)}>Lorem Ipsum is simply dummy text of the printing and typesetting inxt of the printing and typesetting inxt of the printing and typesetting inxt of the printing and typesetting industry. Lorem Ipsum has been the industry's s a galley
+                        <span className={css(styles.desc)}>The most recent views on the preservation of the space world. As well as, providing materials for re-usability to different branches of industry.
                         </span>
                     </Slide>
                 </div>
@@ -31,7 +30,7 @@ export function bracelet() {
                 <div className={css(styles.titleBracelet)}>You can get a bracelet from space!</div>
                 <img src={bracelet_exp} className={css(styles.bracelet)}/>
                 <div className={css(styles.braceletWrapper)}>
-                    <span className={css(styles.braceletDesc)}>Desc DescDescDescDesc DescDescмDesc Desc v Desc v Desc v v v v vDescDescDescDescDesc </span>
+                    <span className={css(styles.braceletDesc)}>Enjoy cool merch from SpaceY</span>
                     <img src={product_demo} className={css(styles.product)}/>
                 </div>
             </div>
@@ -41,10 +40,10 @@ export function bracelet() {
 
 
 function scrollFunction() {
-    if (document.body.scrollTop > 3300 || document.documentElement.scrollTop > 3300) {
+    if (document.body.scrollTop > 5200 || document.documentElement.scrollTop > 5200) {
         document.getElementById("header").style.fontSize = "60px";
     } else {
-        document.getElementById("header").style.fontSize = "120px";
+        document.getElementById("header").style.fontSize = "80px";
     }
 }
 
@@ -126,8 +125,8 @@ const styles = StyleSheet.create({
 
     },
     bracelet: {
-        width: 700,
-        height: 200,
+        width: 550,
+        height: 150,
         marginRight: 500,
         marginTop: 100
     },
@@ -144,7 +143,7 @@ const styles = StyleSheet.create({
         marginRight: 100,
         marginTop: 100,
         fontWeight: 900,
-        fontSize: 40,
+        fontSize: 29,
         color: 'white',
         zIndex: 100,
         transition: 'all 0.3s',
