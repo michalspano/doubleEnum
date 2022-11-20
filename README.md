@@ -1,3 +1,2 @@
-## `web` - the web-site we've built
+# [LIVE PREVIEW](https://michalspano.github.io/doubleEnum/)
 
-Unfortunately, we haven't had enough time to setup the __deployment__, so we're including the `source` code.
