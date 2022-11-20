@@ -1,9 +1,6 @@
 import { css, StyleSheet } from "aphrodite-jss";
 import React from "react";
-import gradient from './images/gradient.png';
-import imageCollage from './images/imageCollage.png';
 import Slide from 'react-reveal/Slide';
-import flareTransparent from './images/flare_transparent.png';
 import product_demo from "./images/product_demo.gif";
 import bracelet_exp from "./images/bracelet_exp.png";
 
@@ -104,8 +101,9 @@ const styles = StyleSheet.create({
         position: 'relative'
     },
     desc: {
-        width: 400,
-        zIndex: 10
+        width: 500,
+        zIndex: 10,
+        fontSize: 20
     },
     column: {
         display: 'flex',
@@ -127,7 +125,7 @@ const styles = StyleSheet.create({
     bracelet: {
         width: 550,
         height: 150,
-        marginRight: 500,
+        marginRight: 100, // center
         marginTop: 100
     },
     wrapper: {

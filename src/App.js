@@ -1,6 +1,5 @@
 import React from 'react';
 import {StyleSheet, css} from 'aphrodite-jss'
-import space from './images/space-accident.gif';
 import './index.css';
 import { listComponent } from "./ListComponent";
 import { home } from "./Home";
@@ -9,21 +8,19 @@ import '@leenguyen/react-flip-clock-countdown/dist/index.css';
 import Slide from 'react-reveal/Slide';
 import {bracelet} from "./Bracelet";
 import imageCollage from "./images/imageCollage.png";
-import flareTransparent from "./images/flare_transparent.png";
-
-
 
 function App() {
   return (
       <React.StrictMode>
         <div className={css(styles.app)}>
-            {/*<div className={css(styles.header)}>*/}
-            {/*    <span className={css(styles.title)}>double_enum</span>*/}
-            {/*    <img src={logo} alt='logo' className={css(styles.logo)} />*/}
-            {/*</div>*/}
             <div className={css(styles.flexCenter)}>
                 <div className={css(styles.countDownTitle)}>Days until launch:</div>
-                <FlipClockCountdown showSeparators={true} to={new Date("2035-12-12T23:50:21.817Z")} />
+                <FlipClockCountdown showSeparators={true} to={new Date("2025-12-12T23:50:21.817Z")} />
+            </div>
+            <div className={css(styles.flexCenter)}>
+                <div className={css(styles.youtubeEmbed)}>
+                    <iframe width="560" height="315" src="https://www.youtube.com/embed/R1ahY4JNKQI" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
+                </div>
             </div>
             {home()}
             <div className={css(styles.listWrapper)}>
@@ -33,7 +30,7 @@ function App() {
                 </div>
                 <div className={css(styles.listContainer)}>
                     {listComponent('OVERVIEW OF THE LOCATION OF SPACE DEBRIS:', 'Low Earth Orbit is where majority of our satellites and telescopes are located. Defunct satellites, rocket thrusters, fragmentation debris further increases the object density in the area.')}
-                    {listComponent('SUSTAINIBILTY ASPECT:', 'By capturing and transporting the debris human made back to Earth, we can re-use the scraps in various industries. The meteoroids brought in could also be used for research and studies.')}
+                    {listComponent('SUSTAINABILITY ASPECT:', 'By capturing and transporting the debris human made back to Earth, we can re-use the scraps in various industries. The meteoroids brought in could also be used for research and studies.')}
                 </div>
             </div>
             {bracelet()}
@@ -43,7 +40,7 @@ function App() {
                 </Slide>
                 <div className={css(styles.column)}>
                     <Slide bottom>
-                        {/*<span className={css(styles.title)}>Teamwork is the key</span>*/}
+                          <span className={css(styles.title)}>Our team: Michal Spano, Ionel Pop, Mariia Zabolotnia, Agrima Singh!</span>
                     </Slide>
                 </div>
             </div>
@@ -58,7 +55,7 @@ const styles = StyleSheet.create({
     app: {
         fontFamily: "Montserrat",
         width: '100%',
-        height: 6500,
+        height: 7000,
         background: 'linear-gradient(0deg, #1C2541 0%,  #BDCADB 51%, #FFFFFF 100% )',
         margin: 0,
         padding: 0,
@@ -82,7 +79,7 @@ const styles = StyleSheet.create({
         alignItems: 'center'
     },
     title: {
-        fontSize: 18,
+        fontSize: 28,
         color: 'white',
         fontWeight: 'bold'
     },
@@ -101,7 +98,7 @@ const styles = StyleSheet.create({
         alignItems: 'center',
         justifyContent: 'center',
         flexDirection: 'column',
-        margin: 250
+        margin: 150
     },
     countDownTitle: {
         fontSize: 30,
@@ -127,5 +124,14 @@ const styles = StyleSheet.create({
         top: 260,
         right: 290,
     },
-
+    youtubeEmbed: {
+        width: 560,
+        height: 315,
+        boxShadow: '0 0 10px rgba(0, 0, 0, 0.5)',
+        transition: 'all 0.3s ease-in-out',
+        '&:hover': {
+            transform: 'scale(0.98)',
+            boxShadow: '0 0 20px rgba(0, 0, 0, 0.5)',
+        }
+    }
 })

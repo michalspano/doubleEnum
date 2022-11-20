@@ -1,7 +1,5 @@
 import { css, StyleSheet } from "aphrodite-jss";
 import React from "react";
-import gradient from './images/gradient.png';
-import imageCollage from './images/imageCollage.png';
 import Slide from 'react-reveal/Slide';
 import flareTransparent from './images/flare_transparent.png';
 import space from "./images/space-accident.gif";
@@ -41,9 +39,9 @@ export function home() {
                 <span className={css(styles.descTitle)}>
                     TECHNICAL SPECIFICATIONS AND REASONING OF OUR MODEL:
                 </span>
-                <span>Space has an extremely low pressure and density. Hence, we can conclude it to be a vacuum. Therefore, the law of inertia is respected which we have to consider in the design of our model.
+                <span className={css(styles.descText)}>Space has an extremely low pressure and density. Hence, we can conclude it to be a vacuum. Therefore, the law of inertia is respected which we have to consider in the design of our model.
                 </span>
-                <ol>
+                <ol className={css(styles.descText)}>
                     <li>We decided to use a gyroscope in our model as the angular momentum is conserved. It will have 3 degrees of freedom. Hence, the bot can rotate about 3 axises.</li>
                     <li>Gyroscopic motion provides stability due to tendency of rotating objects to maintain its orientation of rotation [follows Newton’s first law pop motion also known as the law of inertia].
                     </li>
@@ -63,9 +61,6 @@ export function home() {
                     <li>The debris upon entering the bot will be faced by a cushioning effect done by elastic dampening to reduce the force upon impact. It will then be stored in the body of the bot.</li>
                 </ol>
             </div>
-            {/*<div className={css(styles.flexCenter)}>*/}
-            {/*    <marquee BEHAVIOR="alternate" SCROLLAMOUNT="10" loop='-1'  direction="right" className={css(styles.line)}>DOUBLE ENUM DOUBLE ENUM DOUBLE ENUM DOUBLE ENUM DOUBLE ENUM DOUBLE ENUM DOUBLE ENUM DOUBLE ENUM DOUBLE ENUM DOUBLE ENUM DOUBLE ENUM DOUBLE ENUM DOUBLE ENUM DOUBLE ENUM DOUBLE ENUM DOUBLE ENUM DOUBLE ENUM DOUBLE ENUM DOUBLE ENUM DOUBLE ENUM DOUBLE ENUM DOUBLE ENUM </marquee>*/}
-            {/*</div>*/}
         </div>
     );
 }
@@ -150,8 +145,6 @@ const styles = StyleSheet.create({
         position: 'relative',
         overflow: 'hidden',
         animation: 'moveSlideshow 5s linear infinite'
-
-
     },
     flexCenter: {
         display: 'flex',
@@ -168,12 +161,16 @@ const styles = StyleSheet.create({
         width: 700,
         height: 450,
         margin: 100,
+        borderRadius: 20,
+        boxShadow: '0px 12px 30px rgba(0, 0, 0, 0.05)',
     },
     descTitle: {
+        fontSize: 28,
         fontWeight: 'bold',
         marginBottom: 20,
-        marginTop: 90
+        marginTop: 90,
+    },
+    descText: {
+        fontSize: 17.5
     }
-
-
 })
