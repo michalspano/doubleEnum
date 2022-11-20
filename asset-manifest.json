@@ -1,0 +1,20 @@
+{
+  "files": {
+    "main.css": "/doubleEnum/static/css/main.8c2d6f5d.css",
+    "main.js": "/doubleEnum/static/js/main.53683cd2.js",
+    "static/media/product_demo.gif": "/doubleEnum/static/media/product_demo.f945972cbf9977a49c37.gif",
+    "static/media/space-accident.gif": "/doubleEnum/static/media/space-accident.c3662eeee7104bcbb81f.gif",
+    "static/media/imageCollage.png": "/doubleEnum/static/media/imageCollage.b506eb2e567c3a57ec67.png",
+    "static/media/demo.png": "/doubleEnum/static/media/demo.f1c2750a556fc1f6560c.png",
+    "static/media/bracelet_exp.png": "/doubleEnum/static/media/bracelet_exp.d3a867b9adc101794c38.png",
+    "static/media/gradient.png": "/doubleEnum/static/media/gradient.acb0b6dae0dbb4547c7c.png",
+    "static/media/flare_transparent.png": "/doubleEnum/static/media/flare_transparent.169549efedc676dc0c43.png",
+    "index.html": "/doubleEnum/index.html",
+    "main.8c2d6f5d.css.map": "/doubleEnum/static/css/main.8c2d6f5d.css.map",
+    "main.53683cd2.js.map": "/doubleEnum/static/js/main.53683cd2.js.map"
+  },
+  "entrypoints": [
+    "static/css/main.8c2d6f5d.css",
+    "static/js/main.53683cd2.js"
+  ]
+}
