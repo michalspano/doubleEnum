@@ -4,3 +4,6 @@
 *.DS_Store 
 
 *.afphoto
+
+# assets (too big to be in git)
+assets
