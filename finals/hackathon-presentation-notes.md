@@ -106,6 +106,8 @@ The notes for the project’s slides.
 
 - *Hm, you might be wondering, what is the use of all such debris…*
 
+\pagebreak
+
 ## Slide 12 - Debris re-use [Michal]
 
 1. **Material recycling**
@@ -117,7 +119,7 @@ The notes for the project’s slides.
 3. **Scientific research**
     1. The obtained material can be provided amongst scientific institutions/foundations
     2. This way, new projects are supported
-4. **BRACELET 🎉**
+4. **BRACELET**
     1. An unique, one-to-one, bracelet can be bought
         1. Contains pieces of the materials obtained from space $=$ *“Made in space”.*
 
