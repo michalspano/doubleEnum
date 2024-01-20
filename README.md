@@ -18,7 +18,9 @@ The following is the **pitch slide deck** we presented at the international roun
 the hackathon. [Click here](https://www.canva.com/design/DAFZ6CNneDE/view?embed#2)
 to view the slide deck in its entirety. To read more about the project, please
 visit our `React`-based website that we created for the purpose of the
-competition [here](https://michalspano.com/doubleEnum/).
+competition [here](https://michalspano.com/doubleEnum/) (see
+the [`web`](https://github.com/michalspano/doubleEnum/tree/web) branch to view
+the source code of the website, in case you're interested in that).
 
 <p align="center">
   <img src="exp/product_demo.png" width=auto height=auto>
