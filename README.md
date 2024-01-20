@@ -20,7 +20,11 @@ to view the slide deck in its entirety. To read more about the project, please
 visit our `React`-based website that we created for the purpose of the
 competition [here](https://michalspano.com/doubleEnum/).
 
-<img align="right" src="exp/sponsors.png" width=300 height=auto>
+<p align="center">
+  <img src="exp/product_demo.png" width=auto height=auto>
+</p>
+
+<img align="right" src="exp/sponsors.png" width=256 height=auto>
 
 <h3>Acknowledgements</h3>
 
