@@ -15,17 +15,8 @@ release](https://www.home.sandvik/en/stories/articles/2023/03/waste-collecting-r
 <h3>Final Product</h3>
 
 The following is the **pitch slide deck** we presented at the international round of
-the hackathon.
-
-<div style="position: relative; width: 100%; height: 0; padding-top: 56.2500%;
- padding-bottom: 0; box-shadow: 0 2px 8px 0 rgba(63,69,81,0.16); margin-top: 1.6em; margin-bottom: 0.9em; overflow: hidden;
- border-radius: 8px; will-change: transform;">
-  <iframe loading="lazy" style="position: absolute; width: 100%; height: 100%; top: 0; left: 0; border: none; padding: 0;margin: 0;"
-    src="https:&#x2F;&#x2F;www.canva.com&#x2F;design&#x2F;DAFZ6CNneDE&#x2F;view?embed" allowfullscreen="allowfullscreen" allow="fullscreen">
-  </iframe>
-</div>
-
-<a href="https:&#x2F;&#x2F;www.canva.com&#x2F;design&#x2F;DAFZ6CNneDE&#x2F;view?utm_content=DAFZ6CNneDE&amp;utm_campaign=designshare&amp;utm_medium=embeds&amp;utm_source=link" target="_blank" rel="noopener">Hackathon AIS</a>
+the hackathon. [Click here](https://www.canva.com/design/DAFZ6CNneDE/view?embed#2)
+to view the slide deck in its entirety.
 
 To read more about the project, please visit our `React`-based website that we
 created for the purpose of the competition [here](https://michalspano.com/doubleEnum/).
